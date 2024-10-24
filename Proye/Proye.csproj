@@ -47,12 +47,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Lengua y Comunicacion.cs" />
+    <Compile Include="Lengua y Comunicacion.Designer.cs">
+      <DependentUpon>Lengua y Comunicacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Lengua y Comunicacion.resx">
+      <DependentUpon>Lengua y Comunicacion.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

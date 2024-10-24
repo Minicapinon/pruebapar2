@@ -1,0 +1,3 @@
+C:\Users\CC2_PC02\pruebapar2\Proye\obj\Debug\Proye.csprojResolveAssemblyReference.cache
+C:\Users\CC2_PC02\pruebapar2\Proye\obj\Debug\Proye.Lengua_y_Comunicacion.resources
+C:\Users\CC2_PC02\pruebapar2\Proye\obj\Debug\Proye.csproj.GenerateResource.Cache
