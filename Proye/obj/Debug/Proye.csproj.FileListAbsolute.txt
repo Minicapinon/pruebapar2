@@ -1,0 +1,7 @@
+C:\Users\CC2-PC01\Documents\OwO\Proye\Proye\bin\Debug\Proye.exe
+C:\Users\CC2-PC01\Documents\OwO\Proye\Proye\bin\Debug\Proye.pdb
+C:\Users\CC2-PC01\Documents\OwO\Proye\Proye\obj\Debug\Proye.csprojResolveAssemblyReference.cache
+C:\Users\CC2-PC01\Documents\OwO\Proye\Proye\obj\Debug\Proye.MainForm.resources
+C:\Users\CC2-PC01\Documents\OwO\Proye\Proye\obj\Debug\Proye.csproj.GenerateResource.Cache
+C:\Users\CC2-PC01\Documents\OwO\Proye\Proye\obj\Debug\Proye.exe
+C:\Users\CC2-PC01\Documents\OwO\Proye\Proye\obj\Debug\Proye.pdb
