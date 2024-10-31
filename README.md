@@ -1,7 +1,9 @@
-Realizado por:
+>[!NOTE]
+>Editores de este proyecto
 
-Angel David Barrientos Vital
-Víctor Hugo Moreno Domínguez
-Karol Juarez Cuevas
-Obed Asael Zavala Peredo
-Martha Melissa Alcantar Gonzales
+>[!IMPORTANT]
+>Alcantar Gonzalez Martha Melisa<br>
+>Barrientos Vital Angel David<br>
+>Juares Cuevas Karol<br>
+>Moreno Dominguez Victor Hugo<br>
+>Zavala Peredo Obed Asael<br>
