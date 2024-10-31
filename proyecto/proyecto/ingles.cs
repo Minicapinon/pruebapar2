@@ -1,32 +1,38 @@
-﻿/*
- * Created by SharpDevelop.
- * User: CC2_PC02
- * Date: 31/10/2024
- * Time: 07:18 a. m.
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
-using System;
+﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Threading.Tasks;
+using Microsoft.DirectX.AudioVideoPlayback;
 
 namespace proyecto
 {
-	/// <summary>
-	/// Description of ingles.
-	/// </summary>
-	public partial class ingles : Form
-	{
-		public ingles()
-		{
-			//
-			// The InitializeComponent() call is required for Windows Forms designer support.
-			//
-			InitializeComponent();
-			
-			//
-			// TODO: Add constructor code after the InitializeComponent() call.
-			//
-		}
-	}
+    public partial class ingles : Form
+    {
+        private Audio audio;
+
+        public ingles()
+        {
+            InitializeComponent();
+        }
+
+        void BtnbackClick(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        void BtnplayaudioClick(object sender, EventArgs e)
+        {
+            string rutau = "audio/would.mp3";
+            
+            Task.Run(() => ReproducirAudio(rutau));
+        }
+
+        void ReproducirAudio(string ruta)
+        {
+            string rutcomp = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, ruta);
+            
+            audio = new Audio(rutcomp);
+            audio.Play();
+        }
+    }
 }
