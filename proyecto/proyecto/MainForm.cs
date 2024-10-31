@@ -1,10 +1,16 @@
 ﻿/*
+<<<<<<< HEAD
  * Created by SharpDevelop.
  * User: CC2_PC02
  * Date: 29/10/2024
  * Time: 07:11 a. m.
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
+=======
+ * Created by personas.exe y un flan.rar
+ * Date: 29/10/2024
+ * Time: 07:11 a. m.
+>>>>>>> c19c06164258eb28f3c0389a1f9474c11a18ee49
  */
 using System;
 using System.Collections.Generic;
@@ -29,6 +35,7 @@ namespace proyecto
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+<<<<<<< HEAD
 		
 		void SalirToolStripMenuItemClick(object sender, EventArgs e)
 		{
@@ -70,5 +77,7 @@ namespace proyecto
 			fisica fis = new fisica();
 				fis.Show();
 		}
+=======
+>>>>>>> c19c06164258eb28f3c0389a1f9474c11a18ee49
 	}
 }
