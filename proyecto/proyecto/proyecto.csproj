@@ -31,6 +31,13 @@
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <Reference Include="microsoft.directx.audiovideoplayback">
+      <HintPath>..\audio\microsoft.directx.audiovideoplayback.dll</HintPath>
+    </Reference>
+=======
+    <Reference Include="Microsoft.DirectX.AudioVideoPlayback" />
+>>>>>>> c19c06164258eb28f3c0389a1f9474c11a18ee49
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -47,6 +54,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="acercade.cs" />
     <Compile Include="acercade.Designer.cs">
       <DependentUpon>acercade.cs</DependentUpon>
@@ -59,6 +67,8 @@
     <Compile Include="fisica.Designer.cs">
       <DependentUpon>fisica.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> c19c06164258eb28f3c0389a1f9474c11a18ee49
     <Compile Include="ingles.cs" />
     <Compile Include="ingles.Designer.cs">
       <DependentUpon>ingles.cs</DependentUpon>
@@ -67,6 +77,7 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="matematicas.cs" />
     <Compile Include="matematicas.Designer.cs">
       <DependentUpon>matematicas.cs</DependentUpon>
@@ -81,6 +92,15 @@
   <ItemGroup>
     <EmbeddedResource Include="acercade.resx">
       <DependentUpon>acercade.cs</DependentUpon>
+    </EmbeddedResource>
+=======
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+>>>>>>> c19c06164258eb28f3c0389a1f9474c11a18ee49
+    <EmbeddedResource Include="ingles.resx">
+      <DependentUpon>ingles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

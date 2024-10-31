@@ -36,6 +36,7 @@ namespace proyecto
 		/// </summary>
 		private void InitializeComponent()
 		{
+<<<<<<< HEAD
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			this.menuStrip1 = new System.Windows.Forms.MenuStrip();
 			this.programaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -192,10 +193,15 @@ namespace proyecto
 			this.pictureBox1.TabIndex = 1;
 			this.pictureBox1.TabStop = false;
 			// 
+=======
+			this.SuspendLayout();
+			// 
+>>>>>>> c19c06164258eb28f3c0389a1f9474c11a18ee49
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(190)))), ((int)(((byte)(190)))));
 			this.ClientSize = new System.Drawing.Size(389, 365);
 			this.Controls.Add(this.pictureBox1);
@@ -229,5 +235,12 @@ namespace proyecto
 		private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem programaToolStripMenuItem;
 		private System.Windows.Forms.MenuStrip menuStrip1;
+=======
+			this.ClientSize = new System.Drawing.Size(415, 354);
+			this.Name = "MainForm";
+			this.Text = "proyecto";
+			this.ResumeLayout(false);
+		}
+>>>>>>> c19c06164258eb28f3c0389a1f9474c11a18ee49
 	}
 }
