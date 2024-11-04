@@ -6,11 +6,11 @@ using Microsoft.DirectX.AudioVideoPlayback;
 
 namespace proyecto
 {
-    public partial class ingles : Form
+	public partial class Ingles : Form
     {
         private Audio audio;
 
-        public ingles()
+        public Ingles()
         {
             InitializeComponent();
         }
